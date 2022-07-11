@@ -28,7 +28,11 @@ func Register(c *fiber.Ctx) error {
 		Email:    data["email"],
 		Password: password,
 	}
-	database.DB.Create(&user)
+	createUser := database.DB.Create(&user)
+
+	if createUser.Error != nil {
+		return c.JSON(createUser.Error)
+	}
 
 	return c.JSON(user)
 }
