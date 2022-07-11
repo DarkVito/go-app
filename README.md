@@ -33,3 +33,33 @@
     "Message": "Duplicate entry 'a@aa123.com' for key 'email'"
 }
 ```
+## register
+
+**URL** : `/api/login`
+
+**Method** : `POST`
+
+```json
+{
+    "email":"a@a.com",
+    "password": "1"
+}
+```
+
+## Success Response
+
+```json
+{
+    "message": "success"
+}
+```
+
+## Error Response
+
+
+```json
+{
+    "message": "user not found"
+}
+```
+
