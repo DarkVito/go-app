@@ -33,7 +33,7 @@
     "Message": "Duplicate entry 'a@aa123.com' for key 'email'"
 }
 ```
-## register
+## login
 
 **URL** : `/api/login`
 
