@@ -1,4 +1,4 @@
-# API example
+# API example (in the process of documenting)
 
 ## register
 
