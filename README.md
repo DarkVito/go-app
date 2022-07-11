@@ -6,8 +6,6 @@
 
 **Method** : `POST`
 
-**Data example**
-
 ```json
 {
     "name":"a",
@@ -17,8 +15,6 @@
 ```
 
 ## Success Response
-
-**Content example**
 
 ```json
 {
