@@ -1,7 +1,9 @@
 # API example (in the process of documenting)
 
-## register
 
+<details>
+  <summary>register</summary>
+  
 **URL** : `/api/register/`
 
 **Method** : `POST`
@@ -33,8 +35,11 @@
     "Message": "Duplicate entry 'a@aa123.com' for key 'email'"
 }
 ```
-## login
+</details>
 
+<details>
+  <summary>login</summary>
+  
 **URL** : `/api/login`
 
 **Method** : `POST`
@@ -62,4 +67,4 @@
     "message": "user not found"
 }
 ```
-
+</details>
